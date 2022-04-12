@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sp20-bse-026</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="addBtn">Add</string>
+    <string name="searchBtn">Search</string>
+    <string name="msg">please select the appropriate action</string>
+    <string name="saveBtn">save Button</string>
+</resources>

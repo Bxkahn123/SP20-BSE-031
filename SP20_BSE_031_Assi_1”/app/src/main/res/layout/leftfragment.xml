@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"
+    android:orientation="horizontal"><![CDATA[
+    android:orientation="vertical">
+
+    ]]>
+
+    <Button
+        android:id="@+id/fragmentLeftButtonAndroid"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="294dp"
+        android:layout_height="395dp"
+        android:text="@string/add_record"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/fragmentLeftButtonIos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_record"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/fragmentLeftButtonWindows"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/windows"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/fragmentRightTextView"
+        android:layout_width="86sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/purple_200"
+        android:textSize="60sp"
+        tools:text="Please select the appropriate option." />
+
+</LinearLayout>
+
